@@ -1,7 +1,4 @@
-ls
-cd src
-ls
-echo "HAHAHAHAHAH"
-sudo apt install mailutils
-echo "fim da instalacao"
-echo "Mandando e-mail com mail do linux" | mail -s "meu email deu tudo certo" andressapaula@ges.inatel.br
+$ mailx -r "andressapaula@ges.inatel.br" "anddessa01@gmail.com"
+Subject: Pipeline
+Pipeline ok
+EOT
