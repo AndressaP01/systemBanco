@@ -1,4 +1,6 @@
 ls
+cd src
+ls
 echo "HAHAHAHAHAH"
 sudo apt install mailutils
 echo "fim da instalacao"
