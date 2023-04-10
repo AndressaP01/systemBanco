@@ -44,12 +44,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
-  shell-scripts:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Executar scripts externos versionados
-      uses: actions/checkout@v3
-    - run: sh scripts/shell.sh
+
 
 
 
